@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['pesan'] = 'Data santri berhasil dihapus.';
     } else {
         $_SESSION['pesan'] = 'Data santri tidak ditemukan.';
-        $_SESSION['tipe']  = 'danger';
+        $_SESSION['tipe'] = 'danger';
     }
 }
 
